@@ -22,16 +22,25 @@ public class Person {
     }
 
     public String getFirstName(){
-        return firstName;
+        return this.firstName;
     }
     public String getLastName(){
-        return lastName;
+        return this.lastName;
     }
     public int getAge(){
-        return age;
+        return this.age;
     }
     public boolean isTeen(){
-        return age >= 13 && age <= 19;
+        return this.age >= 13 && this.age <= 19;
+    }
+    public  String getGender(){
+        return  this.gender;
+    }
+    public  String getCountry(){
+        return this.country;
+    }
+    public String getCity(){
+        return this.city;
     }
 }
 
